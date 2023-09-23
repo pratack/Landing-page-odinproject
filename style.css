@@ -1,0 +1,172 @@
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+}
+#logo{
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf9;
+}
+.nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 1.5em;
+}
+a:link {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    }
+a:hover{
+    color: #E5E7EB;
+}
+    
+
+.joaquin{
+    font-size: 22px;}
+.main{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2em;
+}
+.main.left{
+    display: flex;
+    flex-direction: column;
+}
+.main.right{
+    margin-left: 20px;
+}
+.Hero{
+    margin-left: 6cm;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+.Hero-secondary{
+    padding-left: 6cm;
+    font-size: 18px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+    
+}
+.Hero-image{
+ height: auto;
+ width: 200px;
+ flex-shrink: 0;
+ 
+
+}
+.body{
+    background-color: #1F2937;
+    padding-bottom: 5cm;
+
+}
+.inicia-sesion{
+    margin-left: 6cm;
+    background-color: #3882f6;
+    border-radius: 20px;
+    color: white;
+    padding: 8px;
+    margin-top: 1cm;
+
+}
+
+#information-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+.hero1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.imagecontainer {
+    height: 162px;
+    width: 162px;
+    border-radius: 20px;
+}
+
+.card-container {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ gap: 1.5em;
+}
+.card{
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+}
+.square {
+    border: 5px solid #3882f6;
+    border-radius: 20px;
+    border-color: #3882f6;
+    width: 160px;
+    height: 160px
+}
+
+/* Quote*/
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px; 
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2cm;
+}
+#quotesubtext{
+    margin-left: 2cm;
+}
+.backofcalltoaction{
+    background-color: white;
+    margin: 4cm;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.calltoaction{
+    display: flex;
+    flex-direction: row;
+    justify-content: baseline;
+    background-color: #3882f6;
+    margin: 20px;
+    border-radius: 20px;
+    color: white;
+    padding-left:0;
+    margin: 20px;
+}
+#calltoactionmaintext{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+#calltoactionsubtext{
+    margin: 20px;
+}
+#calltoactionbutton{
+    background-color: #3882f6;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+  
+   
+}
+
+    
+
+
+
